@@ -5,6 +5,3 @@ Pillow==2.3.0
 SecretStorage==2.0.0
 South==0.7.5
 web.py==0.37
-wsgiref==0.1.2
-xdiagnose==3.6.3build2
-zope.interface==4.0.5
