@@ -6,6 +6,7 @@ tree = ET.parse('user_data.xml')
 root = tree.getroot()
 
 urls = (
+    '/', 'list_users',
     '/alumnos', 'list_users',
     '/alumnos/(.*)', 'get_user',
     '/status', 'status'
